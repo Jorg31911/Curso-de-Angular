@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Ej2waybindingComponent } from './ej2waybinding/ej2waybinding.component';
 import { FormsModule } from '@angular/forms';
+import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Ej2waybindingComponent
+    Ej2waybindingComponent,
+    EjdirectivangifComponent
   ],
   imports: [
     BrowserModule,
