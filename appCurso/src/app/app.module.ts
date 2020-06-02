@@ -8,6 +8,9 @@ import { FormsModule } from '@angular/forms';
 import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.component';
 import { EjdirectivangstyleComponent } from './ejdirectivangstyle/ejdirectivangstyle.component';
 import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangclass.component';
+import { EjdirectivangforComponent } from './ejdirectivangfor/ejdirectivangfor.component';
+import { ArrayobjetosComponent } from './arrayobjetos/arrayobjetos.component';
+import { EjdirectivangswitchComponent } from './ejdirectivangswitch/ejdirectivangswitch.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangc
     Ej2waybindingComponent,
     EjdirectivangifComponent,
     EjdirectivangstyleComponent,
-    EjdirectivangclassComponent
+    EjdirectivangclassComponent,
+    EjdirectivangforComponent,
+    ArrayobjetosComponent,
+    EjdirectivangswitchComponent
   ],
   imports: [
     BrowserModule,
